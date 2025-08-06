@@ -1,6 +1,6 @@
 // Generate sample cards on page load
 function generateSampleCards() {
-  const sampleWords = ["CAT", "DOG", "BIRD", "FISH", "MOUSE", "ELEPHANT"];
+  const sampleWords = ["SIGMA", "CARD", "GENERATOR ™", "ALL", "RIGHTS", "RESERVED", "COPYRIGHT ©", "2025", "AKIMS"];
   generateCards(sampleWords);
 }
 
