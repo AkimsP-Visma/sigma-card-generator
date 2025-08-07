@@ -44,8 +44,12 @@ button {
   gap: 8mm;
   page-break-inside: avoid;
   break-inside: avoid;
+}
+
+.card-background .card {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
+
 .card:nth-child(3n) {
   border-right: none;
 }
@@ -55,6 +59,10 @@ button {
   border-radius: 4px;
   display: flex;
   justify-content: center;
+  
+}
+
+.inner-borders .word {
   border: 1px solid var(--border-color);
 }
 

@@ -78,5 +78,20 @@ function adjustTextWidths() {
   });
 }
 
+function toggleInnerBorders() {
+  const container = document.getElementById("cards");
+  container.classList.toggle("inner-borders");
+
+  // If inner borders are enabled, adjust the text widths again
+  if (container.classList.contains("inner-borders")) {
+    adjustTextWidths();
+  }
+}
+
+function toggleCardBackground() {
+  const container = document.getElementById("cards");
+  container.classList.toggle("card-background");
+}
+
 // Load sample cards when page loads
 window.addEventListener('DOMContentLoaded', generateSampleCards);

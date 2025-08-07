@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Word Cards Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="inputArea">
@@ -12,9 +12,14 @@
       <textarea id="wordInput"></textarea>
       <br />
       <button onclick="submit()">Generate Cards</button>
+      <div>
+        <span>Toggle styles:</span>
+        <button onclick="toggleInnerBorders()">Inner Borders</button>
+        <button onclick="toggleCardBackground()">Card Background</button>
+      </div>
     </div>
 
-    <div id="cards"></div>
+    <div id="cards" class="inner-borders"></div>
 
     <script src="scripts.js"></script>
   </body>
