@@ -4,6 +4,7 @@
 }
 :root {
   --border-color: rgb(192, 192, 192);
+  --cut-line-color: #f3f3f3;
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -33,8 +34,8 @@ button {
 .card {
   width: calc(33.333% - 1px);
   height: 4.3cm;
-  border-right: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--cut-line-color);
+  border-bottom: 1px solid var(--cut-line-color);
   position: relative;
   display: flex;
   flex-direction: column;
