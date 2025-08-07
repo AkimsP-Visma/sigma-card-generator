@@ -74,7 +74,8 @@ button {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .word.secondary {
-  font-size: 16pt;
+  font-size: 15pt;
+  font-style: italic;
   font-weight: 700;
   transform: rotate(180deg);
   color: #6c757d;
