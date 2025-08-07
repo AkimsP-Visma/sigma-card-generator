@@ -4,7 +4,7 @@
 }
 :root {
   --border-color: rgb(192, 192, 192);
-  --cut-line-color: #f3f3f3;
+  --cut-line-color: #d4d4d4;
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
